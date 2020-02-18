@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bc1"
+    tools:context=".deposite">
+
+    <EditText
+        android:id="@+id/D_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/D_AMOUNT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:inputType="numberSigned"
+        />
+    <TextView
+        android:id="@+id/total_deposit_of_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total deposit of this ID"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/total_deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total deposit"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/save_deposite_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:background="#6DB4EC"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bc5"
+    tools:context=".start">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MK world"
+        android:textColor="#096F0B"
+        android:textSize="30sp"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+
+     >
+     <Button
+         android:id="@+id/registration_Button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Registration"
+         android:layout_marginRight="20dp"
+         android:background="#A178EB"
+
+         />
+     <Button
+         android:id="@+id/mell_Button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Mell"
+         android:layout_marginRight="20dp"
+         android:background="#A178EB"
+
+         />
+     <Button
+         android:id="@+id/deposite_Button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Diposite"
+         android:background="#A178EB"
+
+         />
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="200dp"
+
+        >
+        <Button
+            android:id="@+id/intire_informantion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information"
+            android:layout_marginRight="20dp"
+            android:background="#A178EB"
+
+            />
+        <Button
+            android:id="@+id/indibidual_accout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:layout_marginRight="20dp"
+            android:background="#A178EB"
+
+            />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear"
+            android:background="#A178EB"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

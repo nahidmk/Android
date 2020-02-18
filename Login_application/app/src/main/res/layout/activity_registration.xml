@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bc3"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_accessibility_black_24dp"
+        android:padding="10dp"
+
+        />
+    <EditText
+        android:id="@+id/R_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:hint="ID"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_adjust_black_24dp"
+        />
+    <EditText
+        android:id="@+id/R_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full name"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        />
+    <EditText
+        android:id="@+id/R_email"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"        />
+    <EditText
+        android:id="@+id/R_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/ResitrationsaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:background="#81BCF0"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

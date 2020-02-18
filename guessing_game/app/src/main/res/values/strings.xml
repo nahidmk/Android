@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">guessing_game</string>
+    <string name="name">Welcome to MK</string>
+    <string name="edit">Enter a number between 1 - 10</string>
+</resources>
